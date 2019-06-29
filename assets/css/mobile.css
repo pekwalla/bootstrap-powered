@@ -1,0 +1,152 @@
+
+@media only screen 
+  and (min-width: 300px) 
+  and (max-width: 667px) { 
+
+
+  /*MOBILE CSS*/
+
+  body, html {
+   width: auto !important;
+   overflow-x: hidden !important;
+  }
+
+  #desktop {
+  	display:none;
+  	width:100%;
+  }
+
+  #hamburger {
+  	display:inline;
+  	font-size:28px;
+  	float:right;
+  	margin-right:15px;
+  }
+
+  #mobile {
+  	display:inline;
+  	width:100vw;
+  }
+
+  .side-nav {
+  	background-color:teal;
+  	padding-top:20px;
+  }
+
+  a.mobile-links {
+  font-family:sans-serif;
+  font-weight:300;
+  font-size:18px;
+  color:white;
+  }
+
+  a.mobile-links::selected {
+  	color:teal !important;
+  }
+
+  /*HOME DIV*/
+
+  #home-div {
+    background-repeat:no-repeat;
+    padding-top:50%;     
+  }
+
+  #occupation, 
+  .options {
+  	font-size:35px;
+  }
+
+  #name {
+  	font-size:45px;
+    padding:10px;
+  }
+
+  /*WORK DIV*/
+
+  #work-div {
+  	padding-top:50px;
+    height:1310px;
+  }
+
+  .work-header {
+  	font-size:35px;
+  }
+
+  .work-thumbnail {
+  	display:inline-block;
+  	width:40% !important;
+  	margin-top:0;
+  	margin-bottom:0;
+  }
+
+  #work-selection {
+    position:relative;
+  }
+
+  div.detail {
+  	font-size:20px;
+    width:100%;
+    margin-left:0;
+  }
+
+  #doggie-details,
+  #dance-details,
+  #vagabond-details,
+  #love-details {
+    padding-left:5.7%;
+  }
+
+  #imac {
+  width:89.85%;
+  height:auto;
+  position:absolute;
+  left:5%;
+  z-index:0;
+  }
+
+  .imac-img {
+  width:83.2%;
+  height:auto;
+  position:absolute;
+  left:6.572%;
+  margin-top:3.5%;
+  z-index:1;
+  }
+
+  div.project-header {
+    font-size:30px;
+    width:100%;
+    position:relative;
+    margin-left:0;
+    margin-top:20rem;
+  }
+
+  .site-link {
+  	margin-left:-41%;
+    margin-top:10px;
+  	padding-left:12px;
+  	padding-right:12px;
+  }
+
+  .text-container {
+    min-height: 16em;
+  }
+
+  /*CONTACT DIV*/
+
+  #hello {
+  	font-size:42px;
+  	text-align:center;
+  	margin-top:20px;
+  }
+
+  #contact-details {
+  	text-align:justify;
+  	margin-right:0;
+  }
+
+  p#more-details {
+  	width:100%;
+  }
+
+}

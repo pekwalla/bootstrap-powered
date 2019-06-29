@@ -32,9 +32,13 @@ background: url("../images/concrete_seamless.png");
 }
 
 h1, h2 {
+  font-family: serif,'Fontdiner Swanky', cursive;
   color: #4aaaa5;
 }
  
+h5{
+  color: white
+}
 /* header */
 
 
@@ -42,18 +46,33 @@ h1, h2 {
 
 #logo {
   float: left;
-  width: 250px;
-  height: 90px;
+  width: 350px;
+  height: 60px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
-  font-weight: 700;
-  line-height: 90px;
+  font-weight: 400;
+  line-height: 60px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
 }
  
+
+
+#logo1 {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: 80;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
 
 /* footer */
 
@@ -66,7 +85,7 @@ footer {
   text-align: center;
   background: #666666;
   border-top: 8px solid #4aaaa5;
-  height: 100px;
+  height:30px;
   width: 100%;
   position: fixed;
 }
