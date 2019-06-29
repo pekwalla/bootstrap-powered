@@ -10,5 +10,7 @@ bootstrap-powered
 6- Add the sharing buttons link to the home page and Porfolio page
 7- Add a link to my Github page on the footer
 8- Resume opens up in a new page.
+https://github.com/pekwalla/bootstrap-powered
+https://pekwalla.github.io/bootstrap-powered/
 
  
